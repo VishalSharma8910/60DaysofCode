@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+int n,i=1;
+cout<<"Enter the value of n "<<endl;
+cin>>n;
+
+cout<<"The value of n is "<<n <<" :"<<endl;
+
+
+do{
+   cout<<i<<endl;
+   i++;
+}while(i<=n);
+
+return 0;
+}
+
