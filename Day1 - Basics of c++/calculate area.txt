@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+float base,height,area;
+cout<<"Enter the base and height "<<endl;
+cin>>base>>height;
+
+area=(base*height)/2;
+
+cout<<"Area is "<<area;
+
+
+return 0;
+}
+
