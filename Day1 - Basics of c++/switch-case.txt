@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+int x=(1+1);
+switch(x){
+   case 1: cout<<"one"<<endl;
+   break;
+   case 2: cout<<"two"<<endl;
+   break;
+default:cout<<"Invalid number ";   
+
+}
+
+return 0;
+}
+
