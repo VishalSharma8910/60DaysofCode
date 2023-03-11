@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+int n,r,sum=0,m;
+cout<<"Enter the value of n "<<endl;
+cin>>n;
+
+cout<<"The value of N is "<<n<<endl;
+
+m=n;
+
+while(n>0) {
+ r=n%10;
+ n=n/10;
+ sum+=r*r*r;
+
+}
+if(sum==m){
+   cout<<m<<" This is an armstrong number "<<endl;
+}
+else{
+   cout<<m<<" This is not an armstrong number "<<endl;
+}
+
+return 0;
+}
+
+output
+==============================
+
+Enter the value of n 
+The value of N is 153
+153 This is an armstrong number 
