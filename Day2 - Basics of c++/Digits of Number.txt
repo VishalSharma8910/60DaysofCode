@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+int n,r;
+cout<<"Enter the value of n "<<endl;
+cin>>n;
+
+cout<<"The value of N is "<<n<<endl;
+while(n>0){
+ r=n%10;
+ n=n/10;
+ cout<<r<<endl;
+
+}
+
+return 0;
+}
+
+==========================
+output
+===================
+Enter the value of n 
+The value of N is 1780
+0
+8
+7
+1
