@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+
+int A[7]={4,8,6,9,5,2,7};
+int max=A[0];
+
+for(int i=1; i<7; i++){
+   if(A[i]>max){
+      max=A[i];
+   }
+}
+
+cout<<max;
+return 0;
+}
+
+output
+==========
+9
