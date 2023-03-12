@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+//---------------------------------------
+
+char s1[20]="Good";
+char s2[10]="Morning";
+
+strcpy(s2,s1);
+cout<<"The string is "<<s2<<endl;
+
+// strstr function 
+  
+char s3[20]="Programming";
+char s4[10]="m";
+
+cout<<strstr(s3,s4)<<endl;  
+
+// strchr 
+
+char s5[20]="Hello";
+char s6[20]="Hello";
+
+cout<<strcmp(s5,s6)<<endl;
+
+
+return 0;
+}
+
+=============
+The string is Good
+mming
+0
