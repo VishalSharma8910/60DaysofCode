@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+//---------------------------------------
+
+char s[50];
+cout<<"Enter your name "<<endl;
+cin.getline(s,50);
+
+cout<<"The string is "<<s<<endl;
+cout<<"The lenght of the string is "<<strlen(s);    
+
+
+return 0;
+}
+
+output
+===============
+Enter your name 
+The string is Hello my name is vishal kumar sharma 
+The lenght of the string is 37
