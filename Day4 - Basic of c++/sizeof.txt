@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+ #endif
+
+cout<<"Size of fundamental data types :"<<endl;
+cout<<"The Size of Char "<<sizeof(char)<<endl;
+cout<<"The Size of Short "<<sizeof(short)<<endl;
+cout<<"The Size of Integer "<<sizeof(int)<<endl;
+cout<<"The Size of Long "<<sizeof(long)<<endl;
+cout<<"The Size of Long Long "<<sizeof(long long)<<endl;
+cout<<"The Size of Float "<<sizeof(float)<<endl;
+cout<<"The Size of Double "<<sizeof(double)<<endl;
+cout<<"The Size of Long Double "<<sizeof(long double)<<endl;
+cout<<"The Size of Bool "<<sizeof(bool)<<endl;
+
+
+
+return 0;
+}
+
+=========================
+Size of fundamental data types :
+The Size of Char 1
+The Size of Short 2
+The Size of Integer 4
+The Size of Long 4
+The Size of Long Long 8
+The Size of Float 4
+The Size of Double 8
+The Size of Long Double 12
+The Size of Bool 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
